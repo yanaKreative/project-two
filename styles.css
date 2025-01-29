@@ -120,7 +120,16 @@ a:visited {
     text-decoration: none;
     color: purple;
 }
+#top {
+    float: right;
+    margin-top: 10px;
+}
 
+@media (max-width: 767px) {
+    .footer-links {
+        display: none;
+    }
+}
 @media (min-width: 768px) {
     .main-nav {
         display: flex;
@@ -157,6 +166,9 @@ a:visited {
     .sec {
         flex: 1 50%; 
         background-color: #ecd6d6;
+    }
+    #top {
+        display: none;
     }
 }
 
